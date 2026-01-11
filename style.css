@@ -1,0 +1,240 @@
+/* ================= RESET ================= */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Segoe UI",sans-serif;
+}
+
+/* ================= BODY ================= */
+body{
+  background:linear-gradient(135deg,#2b0000,#000000);
+  color:#ffffff;
+}
+
+/* ================= FRAME CONTROL ================= */
+.hero,.section{
+  min-height:100vh;
+  width:100%;
+  padding:80px 100px;
+}
+
+/* ================= HERO ================= */
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:80px;
+}
+
+/* LEFT CONTENT */
+.hero-left{
+  max-width:720px;
+  text-align:center;
+}
+
+/* INTRO */
+.intro{
+  font-size:22px;
+  opacity:1;
+  margin-bottom:8px;
+}
+
+/* NAME */
+.hero-left h1{
+  font-size:64px;
+  margin:16px 0;
+  line-height:1.15;
+}
+
+/* ROLE */
+.hero-left h3{
+  font-size:24px;
+  color:#ff3b3b;
+  margin-bottom:28px;
+}
+
+.certification{
+  display:inline-block;
+  margin-bottom:22px;
+  font-size:21px;
+  font-weight:600;
+  color:#ff3b3b;
+  text-decoration:none;
+}
+
+.certification:hover{
+  text-decoration:underline;
+}
+
+/* DESCRIPTION */
+.about{
+  font-size:20px;
+  line-height:2;
+  margin-bottom:45px;
+  opacity:0.95;
+}
+
+.about span{
+  color:#ff3b3b;
+}
+
+/* HERO ICONS */
+.hero-icons{
+  display:flex;
+  justify-content:center;
+  gap:60px;
+  align-items:center;
+}
+
+.hero-icons div{
+  text-align:center;
+}
+
+.hero-icons img{
+  width:44px;
+}
+
+.hero-icons span{
+  display:block;
+  margin-top:12px;
+  font-size:20px;
+  opacity:1;
+}
+
+/* RIGHT IMAGE */
+.hero-right{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.hero-right img{
+  width:720px;
+  height:720px;
+  object-fit:cover;
+  border-radius:20px;
+}
+
+/* ================= SECTIONS ================= */
+.section{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.section-title{
+  text-align:center;
+  color:#ff3b3b;
+  margin-bottom:40px;
+  font-size:28px;
+}
+
+/* ================= PROJECT CARDS ================= */
+.card-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:40px;
+}
+
+.card{
+  background:rgba(0,0,0,0.55);
+  padding:34px;                 /* MORE SPACE */
+  border-radius:16px;
+  min-height:420px;
+}
+
+/* PROJECT TITLE */
+.card h3{
+  color:#ff3b3b;
+  font-size:22px;
+  font-weight:600;
+  margin-bottom:18px;
+}
+
+/* PROJECT DESCRIPTION */
+.card p{
+  font-size:16px;
+  line-height:1.9;
+  opacity:0.95;
+  margin-bottom:18px;
+}
+
+/* KEY HIGHLIGHTS TITLE */
+.card .highlights-title{
+  color:#ff3b3b;
+  font-size:16px;
+  font-weight:600;
+  margin:20px 0 12px;
+}
+
+/* BULLET POINTS */
+.card ul{
+  margin:16px 0 22px;
+  padding-left:22px;
+}
+
+.card ul li{
+  margin-bottom:10px;
+  font-size:15px;
+  line-height:1.7;
+}
+
+/* TOOLS TEXT */
+.card .highlight-title{
+  color:#ff3b3b;
+  font-weight:600;
+  font-size:17px;
+  margin:22px 0 12px;
+  display:block;
+}
+
+/* VIEW DETAILS BUTTON */
+.card button{
+  margin-top:22px;
+  padding:12px 28px;
+  font-size:14px;
+  font-weight:600;
+  border-radius:24px;
+  background:#ff3b3b;
+  color:#000;
+  border:none;
+  cursor:pointer;
+  transition:all 0.25s ease;
+}
+
+.card button:hover{
+  background:#ff5a5a;
+  transform:translateY(-2px);
+}
+
+/* ================= TOOLS ================= */
+.tools-section{
+  justify-content:space-between;
+}
+
+.icon-row{
+  display:flex;
+  justify-content:center;
+  gap:50px;
+  flex-wrap:wrap;
+  margin-bottom:40px;
+}
+
+.icon-row img{
+  width:48px;
+}
+
+.icon-row span{
+  display:block;
+  margin-top:8px;
+  font-size:13px;
+  text-align:center;
+}
+
+/* ================= FOOTER ================= */
+footer{
+  text-align:center;
+  font-size:14px;
+  opacity:0.85;
+}
